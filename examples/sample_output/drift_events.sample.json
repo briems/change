@@ -1,0 +1,11 @@
+[
+  {
+    "path_id": "AP-0001",
+    "event_type": "config_hash_changed",
+    "previous_hash": "abc123",
+    "current_hash": "def456",
+    "previous_status": "Open",
+    "new_status": "RevalidationRequired",
+    "detected_at": "2026-01-01T00:00:00+00:00"
+  }
+]
