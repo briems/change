@@ -1,0 +1,4 @@
+example.com
+portal.example.com
+login.example.com
+admin.example.com
