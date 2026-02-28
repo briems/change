@@ -1,0 +1,22 @@
+[
+  {
+    "path_id": "AP-0001",
+    "entry_point": "login.example.com",
+    "identity_provider": "AzureAD",
+    "issuer": "https://login.microsoftonline.com/example-tenant/v2.0",
+    "tenant_hint": "example-tenant",
+    "redirect_chain": [
+      "https://login.example.com/",
+      "https://login.microsoftonline.com/example-tenant/oauth2/v2.0/authorize"
+    ],
+    "oidc_discovered": true,
+    "legacy_auth_signal": false,
+    "context_controls": {
+      "geo_restriction_hint": "unknown",
+      "waf_proxy_hint": "unknown"
+    },
+    "severity_score": 85,
+    "confidence": 0.82,
+    "status": "Open"
+  }
+]
